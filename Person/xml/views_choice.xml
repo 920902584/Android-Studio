@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="颐和园"
+        android:gravity="center"
+        android:textColor="#ef0606"
+        android:textSize="16pt"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"/>
+
+    <TextView
+        android:text="景区分类：人文景观"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6.5pt"
+        android:textColor="#f26908"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="门票价格：1.门票30元/张（旺季）20元/张（淡季）2.半价票15元/张（旺季学生票）10元/张（淡季学生票）3.联票60元/张（旺季）50元/张（淡季）"
+        android:textColor="#f26908"
+        android:textSize="6.5pt"/>
+    <TextView
+        android:id="@+id/jtTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f26908"
+        android:textSize="6.5pt"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="地铁路线：乘地铁四号线，北宫门下车即到（北宫门），也可以在西苑下车，经有同庆街西行500米到达颐和园东宫门（正门）"
+        android:textColor="#f26908"
+        android:textSize="6.5pt"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开放时间：旺季：大门6:30 - 18:00 园中园8:30 - 17:00 淡季：大门7:00 - 17:00 园中园 9:00 - 16:00"
+        android:textColor="#f26908"
+        android:textSize="6.5pt"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="联系方式： 010-62881144转611或209北京西北郊海淀区，距北京城区15千米"
+        android:textColor="#f26908"
+        android:textSize="6.5pt"/>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:text="返回上页"
+            android:id="@+id/returnpagetow"
+            android:textColor="#f26908"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/foxiangge"
+                android:id="@+id/tu56"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/foxiangge"
+                android:textColor="#04ec88"
+                android:id="@+id/fo"
+                android:textSize="8pt"
+                android:layout_below="@+id/tu56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="返回查询"
+                android:textColor="#f40707"
+                android:id="@+id/Button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fo"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
